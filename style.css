@@ -1,0 +1,56 @@
+body {
+    background-image: url(background.jpg);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    margin: 0;
+}
+
+#keys{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 25px;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+
+    background-color: rgba(0, 0, 0, 0.532);
+    border: 5px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.key p{
+    margin: 0;
+}
+
+.keytxt{
+    color: whitesmoke;
+    font-size: 35pt;
+}
+
+.soundtxt{
+    color: rgb(217, 189, 3);
+    font-size: 8pt;
+}
+
+.keydown{
+    border: 5px solid rgba(253, 253, 5, 0.701);
+    transform: scale(1.1);
+}
+
+
+
